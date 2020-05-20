@@ -1,0 +1,6 @@
+--- # to check df- HP on remote hosts
+name: to check the remote hosts for df-h output
+hosts:all
+connect:anil
+become:yes
+task:
